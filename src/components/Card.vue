@@ -1,6 +1,6 @@
 <template>
   <div
-    class="h-full min-w-[128px] rounded-2xl bg-[#FDFFFD] flex flex-col justify-center px-2 py-4 shadow-lg"
+    class="h-full min-w-[128px] rounded-2xl bg-[#FDFFFD] flex flex-col justify-center px-2 py-4 shadow-lg hover:bg-gray-200"
   >
     <div class="text-[#A6B1D1]">{{subtitle}}</div>
     <h1 class="font-bold text-[#314062]">{{title}}</h1>

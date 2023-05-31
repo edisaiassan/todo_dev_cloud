@@ -43,7 +43,7 @@
       <ul>
         <li v-for="(todo, index) in todoStore.todoDataList" :key="todo.id">
           <div
-            class="bg-[#FDFFFD] p-4 rounded-2xl flex items-center gap-4 mt-2"
+            class="bg-[#FDFFFD] p-4 rounded-2xl flex items-center gap-4 mt-2 hover:bg-gray-200"
           >
             <el-checkbox
               :model-value="todo.check"
